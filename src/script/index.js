@@ -1,6 +1,6 @@
 window.onload=()=>{
 const content=document.querySelector('div.content'),title=document.querySelector('div.title'),blob=new Blob();
-const mds="./src/md/",defaultPage="index.md";
+const mds="./src/md/",defaultPage="index";
 
 MathJax.Hub.Config({
     tex2jax: {inlineMath: [['$','$']],displayMath:[['$$','$$']]},
