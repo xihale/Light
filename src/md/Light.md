@@ -1,0 +1,33 @@
+---
+title: <b>Light</b>
+---
+
+<bl>
+<!-- 定义主色 -->
+
+## <b>前言</b>
+
+想做个<g>轻量的网志系统</g>,就开始了
+
+虽然这可能是最费时间写文章的log系统,但我也知足了,我想做的,仅仅是<r>轻(Light)
+
+而且,写这个的代码量并不大,因为我没有给他安装太多的<g>功能
+
+## <b>需求实现</b>
+
+   - [x] 基本的博客显示界面
+   - [x] Markdown解析成html(js)
+   - [ ] js动态调节
+   - [x] Tex数学术语
+
+### <r>LaTex<b>测试
+$$E=MC^2$$
+
+### <r>代码<b>测试
+```cpp
+#include <iostream>
+using namespace std;
+int main(){
+   return 0;
+}
+```

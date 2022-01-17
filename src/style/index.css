@@ -1,0 +1,84 @@
+
+/* Fonts begin */
+@font-face {
+    font-family: FiraCode-Medium;
+    src: url("https://o.xurl.ga/fonts/FiraCode-Medium.ttf");
+}
+/* Fonts end */
+
+top{
+    min-height: 100px;
+    /* color: #57ace9; */
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 15px;
+    user-select: none;
+}
+top a:visited,top a:link{
+    color: #57ace9;
+    font-size: smaller;
+}
+main{
+    text-align: center;
+    color: #dad3d3;
+}
+*::selection{
+    background-color: rgba(93, 166, 255, 0.25);;
+    color: auto;
+}
+body{
+    background-color: #323232;
+    font-family: FiraCode-Medium;
+}
+.title{
+    text-align: center;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+.content{
+    text-align: left;
+    font-size: 20px;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+.content p::before{
+    content: "\2002\2002\2002\2002";
+}
+c::before{
+    content: "\2002\2002";
+}
+pre *::selection{
+    background-color: #2a393d;
+}
+a,a:visited{
+    color: #479BFF;
+}
+b{
+    color: #479BFF;
+}
+g{
+    /* color: #C7EDCC; */
+    color: #86d49a;
+}
+r{
+    color: #f27d51;
+}
+gray{
+    color: #babdb0;
+}
+bl{
+    color: #5dd4f8;
+}
+bd{
+    color: #00c3ff;
+}
+
+/* 滑块美化 */
+body::-webkit-scrollbar{
+    /* display: none; */
+    background-color: #323232;
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb{
+    background-color: #404040;
+}
