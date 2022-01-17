@@ -22,12 +22,12 @@ window.onhashchange=async()=>{
     let link=window.location.hash.slice(1),data,n;
     link=mds+(link==''?defaultPage:link)
     try{
-        data=(await get(link)).data,n=data.indexOf('\n',data.indexOf('\n')+6);
+        data=(await get(link)).data,n=data.indexOf('\n');
     }catch(e){
         window.location.hash="#";
         return 0;
     }
-    title.innerHTML=data.slice(11,n);
+    title.innerHTML=data.slice(0,n);
     content.innerHTML=marked.parse(data.slice(n+1));
     hljs.highlightAll();
     MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
