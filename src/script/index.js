@@ -2,14 +2,6 @@ window.onload=()=>{
 const content=document.querySelector('div.content'),title=document.querySelector('div.title'),blob=new Blob();
 const mds="./src/md/",defaultPage="index";
 
-MathJax.Hub.Config({
-    tex2jax: {inlineMath: [['$','$']],displayMath:[['$$','$$']]},
-    menuSettings: {
-        zoom: "Double-Click",
-    },
-    messageStyle: "none",
-});
-
 // var dev='# Hello Light\n$123^{2}$\n';
 
 // content.innerHTML=marked.parse(dev);
@@ -30,7 +22,7 @@ window.onhashchange=async()=>{
     title.innerHTML=data.slice(0,n);
     content.innerHTML=marked.parse(data.slice(n+1));
     hljs.highlightAll();
-    MathJax.Hub.Queue(["Typeset", MathJax.Hub]);
+    MathJax.typeset([preview]);
 };
 
 window.onhashchange();
