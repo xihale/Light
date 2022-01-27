@@ -73,7 +73,8 @@ bd{
     color: #00c3ff;
 }
 c{
-    text-align: center;
+    position: relative;
+    left: 40%;
 }
 hr{
     background-color: #479BFF;
