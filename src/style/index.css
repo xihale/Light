@@ -72,6 +72,12 @@ bl{
 bd{
     color: #00c3ff;
 }
+c{
+    text-align: center;
+}
+blockquote{
+    color: #479BFF;
+}
 
 /* 滑块美化 */
 body::-webkit-scrollbar{
