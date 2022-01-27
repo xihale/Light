@@ -76,7 +76,9 @@ c{
     text-align: center;
 }
 hr{
-    color: #479BFF;
+    background-color: #479BFF;
+    height: 1px;
+    border: none;
 }
 
 /* 滑块美化 */
