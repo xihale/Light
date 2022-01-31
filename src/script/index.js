@@ -22,7 +22,7 @@ window.onhashchange=async()=>{
     title.innerHTML=data.slice(0,n);
     content.innerHTML=marked.parse(data.slice(n+1));
     hljs.highlightAll();
-    MathJax.typeset([preview]);
+    MathJax.typeset([content]);
 };
 
 window.onhashchange();
