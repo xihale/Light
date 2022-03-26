@@ -29,3 +29,9 @@ int main(){
    return 0;
 }
 ```
+
+### Math 函数图像 嵌入测试
+<center><iframe src="https://www.desmos.com/calculator/wbrfdwtifc?embed" width="500" height="500" style="border: 1px solid #ccc" frameborder=0></iframe></center>
+
+<center><iframe src="https://www.geogebra.org/calculator/zcrjnxnm?embed" width="800" height="600" allowfullscreen frameborder="0"></iframe></center>
+
